@@ -3,3 +3,114 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  /* color: whitesmoke; */
+  color: black;
+}
+li {
+  list-style: none;
+  padding: 5px;
+}
+.container {
+  background: url("https://media.istockphoto.com/id/821330386/photo/adalaj-stepwell-indian-heritage-tourist-place-ahmedabad-gujarat-world-heritage-city.jpg?s=612x612&w=0&k=20&c=DHBlcVJPnxsKdKt64Q088Z90-SKkI42cNmK8Yfwot2E=");
+  /*     
+  background: url("https://wallpapers.com/images/hd/ahmedabad-hindu-akshardham-complex-zteovijge7w2modk.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.container h1 {
+  font-size: 120px;
+  font-weight: 900;
+}
+.container p {
+  font-size: 32px;
+  color: whitesmoke;
+  font-weight: 700;
+}
+.img-container {
+  width: 300px;
+  height: 500px;
+}
+.gallery {
+  padding-bottom: 20px;
+  background-color: #442000;
+  color: white;
+}
+.gallery h2 {
+  text-align: center;
+  font-size: 38px;
+  padding: 20px;
+}
+.img-container {
+  width: 400px;
+  padding: 10px;
+  border-radius: 15px;
+  height: auto;
+  background-color: rgba(255, 235, 205, 0.257);
+}
+.img-container:hover {
+  scale: 1.01;
+}
+.img-container img {
+  height: 380px;
+  width: 380px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.img-container p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: whitesmoke;
+  /* color: rgb(169, 168, 168); */
+  padding: 5px;
+}
+.history {
+  background-color: blanchedalmond;
+  padding: 50px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.history img {
+  width: 100%;
+}
+.history > div {
+  width: 45%;
+}
+.history h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.history p {
+  font-size: 20px;
+  text-align: justify;
+}
+hr {
+  height: 50px;
+  background: blanchedalmond;
+  outline: none;
+  border: none;
+}

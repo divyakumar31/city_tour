@@ -1,7 +1,8 @@
 import React from "react";
+import Home from "./routes/Home";
 
 const App = () => {
-  return <div>Hello</div>;
+  return <Home />;
 };
 
 export default App;
