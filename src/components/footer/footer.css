@@ -1,0 +1,46 @@
+footer{
+    width: 100dvw;
+    background: #1C0A00;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 0px;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.footer-flex{
+    display: flex;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.row {
+    width: 250px;
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.align-end {
+    align-items: end;
+}
