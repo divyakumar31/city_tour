@@ -15,15 +15,18 @@
   display: flex;
   gap: 30px;
 }
+
 a {
   text-decoration: none;
   /* color: whitesmoke; */
   color: black;
 }
+
 li {
   list-style: none;
   padding: 5px;
 }
+
 .container {
   background: url("https://media.istockphoto.com/id/821330386/photo/adalaj-stepwell-indian-heritage-tourist-place-ahmedabad-gujarat-world-heritage-city.jpg?s=612x612&w=0&k=20&c=DHBlcVJPnxsKdKt64Q088Z90-SKkI42cNmK8Yfwot2E=");
   /*     
@@ -38,24 +41,29 @@ li {
   color: white;
   flex-direction: column;
 }
+
 .container h1 {
   font-size: 120px;
   font-weight: 900;
 }
+
 .container p {
   font-size: 32px;
   color: whitesmoke;
   font-weight: 700;
 }
+
 .img-container {
   width: 300px;
   height: 500px;
 }
+
 .gallery {
   padding-bottom: 20px;
   background-color: #442000;
   color: white;
 }
+
 .gallery h2 {
   text-align: center;
   font-size: 38px;
