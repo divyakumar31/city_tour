@@ -4,12 +4,15 @@ import Footer from "./components/footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import { Navbar } from "./components";
 import Conservation from "./components/conservation/Conservation.jsx";
+import Historical from "./components/Historical/Historical.jsx";
 
 const App = () => {
     return (
         <>
             <Navbar />
-            <Conservation/>
+            {/* <Conservation/> */}
+            <Historical/>
+            
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 {/* <Route exact path="/" element={<Conservation />} /> */}
