@@ -34,7 +34,7 @@ const Navbar = () => {
       </ul>
       <div
         className={`menu ${menu ? "close-btn" : ""}`}
-        onClick={() => (setMenu(!menu), console.log("menu clicked", menu))}
+        onClick={() => setMenu(!menu)}
       >
         <div className={`bar1 menu-bar`}></div>
         <div className={`bar2 menu-bar`}></div>

@@ -1,39 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins&display=swap");
 
-.title{
-    margin-top: 50px;
-    width: 100dvw;
-    height: 70px;
-    top: 192px;
-    padding: 7px 0px 12px 0px;
-    text-align: center;
-    background: #885133;
-
+.title {
+  margin-top: 50px;
+  width: 100%;
+  height: 70px;
+  top: 192px;
+  padding: 7px 0px 12px 0px;
+  text-align: center;
+  background: #885133;
 }
 
-.font{
-    font-weight: 400;
-    font-style: normal;
-    color: white;
+.font {
+  font-weight: 400;
+  font-style: normal;
+  color: white;
 }
 
-.title-font{
-    font-family: "Luxurious Roman", serif;
-    font-size: 40px;
+.title-font {
+  font-family: "Luxurious Roman", serif;
+  font-size: 40px;
 }
 
-.main-div{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    background: #5C2C00;
-    padding-bottom: 70px;
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  background: #5c2c00;
+  padding-bottom: 70px;
 }
 
-.card-pic{
-    object-fit: contain;
-    height: 400px;
-    width: 300px;
-    cursor: pointer;
+.card-pic {
+  object-fit: contain;
+  height: 400px;
+  width: 300px;
+  cursor: pointer;
 }
